@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Welcome to my library!</p>
+            <button class="add-book">Add a new book</button>
+            <div class="menu"></div>
+        </div>
+        <div class="library">
+            <div class="book-card">
+                <div class="head-mark"></div>
+                <div class="card-content">
+                    <div class="title">How to use this online library</div>
+                    <div class="author">by Designer</div>
+                    <div class="page-number">5 pages</div>
+                    <div class="progress">Page 2</div>
+                </div>
+            
+            </div>
+            <dialog>
+                <form class="book-info">
+                <div class="title">
+                    <label for="title">Book title</label>
+                    <input type="text" id="title" name="title" value="" placeholder="Enter book title">
+                </div>
+
+                <div class="author">
+                    <label for="author">Written by</label>
+                    <input type="text" name="author" id="author" value="" placeholder="Enter author(s)">
+                </div>
+
+                <div class="pageNum">
+                    <label for="pageNum">Number of pages</label>
+                    <input type="number" name="pageNum" id="pageNum" value="0" placeholder="Enter number of pages">
+                </div>
+
+                <div class="currPage">
+                    <label for="current-page">Current page</label>
+                    <input type="number" name="current-page" id="current-page" value="0" placeholder="Enter number pages">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="submit">
+                <button class="close-modal">Close</button>
+                </div>
+                </form>
+            </dialog>
+        </div>
+    </div>
+</body>
+<script src="javascript.js" defer></script>
+</html>
