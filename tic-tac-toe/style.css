@@ -1,0 +1,12 @@
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.board {
+    width:50vh;
+    height:50vh;
+}
+
+#grid-cell {
+    border: 1px solid #f0f0f0;
+}
